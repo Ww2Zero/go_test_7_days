@@ -1,0 +1,1 @@
+go test -fuzz=Fuzz -fuzztime=10s  . -v
