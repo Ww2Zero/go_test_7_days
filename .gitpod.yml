@@ -2,6 +2,10 @@
 tasks:
   - init: |
       echo 'TODO: build project'
+      echo 'INIT START --> start install package'
+      sudo apt install tree
+      sudo pat install fish
+      echo 'INIT START --> end install package'
     command: |
       echo 'TODO: start app'
 vscode:
